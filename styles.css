@@ -1,0 +1,14 @@
+/* DEVELOPER: Beshoy Boles, IS117-001, Fall 2026 */
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #e9eef2; margin: 0; color: #1d2935; }
+.container { width: min(900px, 94%); margin: 24px auto; background: white; border: 2px solid #204c6a; padding: 24px; }
+header { text-align: center; border-bottom: 3px solid #b88c39; padding-bottom: 16px; }
+.logo { width: 180px; max-width: 100%; }
+h1 { color: #153b5c; } h2 { color: #8b541b; }
+.speakers { display: flex; gap: 22px; flex-wrap: wrap; }
+.speakers article { flex: 1 1 240px; }
+.speakers img { width: 100%; height: auto; }
+a { color: #174f87; }
+footer { margin-top: 28px; border-top: 1px solid #aaa; text-align: center; }
+.construction { min-height: 300px; }
+@media(max-width:600px) { .container { padding: 15px; } }
